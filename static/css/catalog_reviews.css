@@ -1,0 +1,57 @@
+hr {
+    margin: 8px 0;
+}
+
+.photo {
+    border-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    height: 80px;
+    width: 80px;
+    margin-left: -46px;
+    object-fit: cover;
+}
+
+.titles_review {
+    padding: 0;
+}
+
+.title_review {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin: 0px 0px 5px 0px;
+}
+
+.subtitle_review {
+    font-size: 12px;
+    margin: -7px 0px 0px 0px;
+}
+
+.title_product {
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.rating {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.center {
+    text-align: center;
+}
+
+.margin_top {
+    margin-top: 100px;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+.no_margin {
+    margin: 0;
+}

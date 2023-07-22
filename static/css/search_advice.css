@@ -1,0 +1,50 @@
+/* Search advice */
+
+#search_advice_wrapper {
+  display: none;
+  position: absolute;
+  z-index: 999;
+  width: 205px;
+  top: 55px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px 1px rgb(0 0 0 / 20%);
+}
+
+#search_advice_wrapper > .advice_variant{
+    cursor: pointer;
+    padding: 5px;
+    text-align: left;
+    font-size: 1.1em;
+}
+
+#search_advice_wrapper > .history {
+	color: mediumpurple;
+}
+
+#search_advice_wrapper > .advice_variant:hover, #search_advice_wrapper > .active{
+	background-color: #e0e0e0;
+}
+
+#search_advice_wrapper > .advice_variant:first-child:hover, .active:first-child {
+	border-radius: 10px 10px 0 0;
+}
+
+#search_advice_wrapper > .advice_variant:last-child:hover, .active:last-child {
+	border-radius: 0 0 10px 10px;
+}
+
+
+/* Clear history query button */
+.history > .delete-history-btn {
+	position: absolute;
+	right: 10px;
+	background-color: transparent;
+	border: none;
+	color: mediumpurple;
+	transition: 0.1s;
+}
+
+.history > .delete-history-btn:hover {
+	color: black;
+}

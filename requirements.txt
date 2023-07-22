@@ -1,0 +1,8 @@
+# Engine
+Django==4.0.2
+Pillow==9.0.1
+crispy-bootstrap5==0.6
+
+# Forms
+django-crispy-forms==1.14.0
+
